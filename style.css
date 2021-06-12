@@ -1,0 +1,60 @@
+body {
+    background-color: #F4F6F9;
+}
+
+#heared {
+    border: 5px solid white;
+    border-radius: 8px;
+    background-color: blanchedalmond;
+    font-size: 30px;
+    font-family: monospace;
+    color: darkslategrey;
+    text-align: center;
+}
+
+#contariner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-49%, -50%);
+    border-radius: 0.25rem;
+    border: 1px solid #3a3b3d;
+    background-color: #FFFFFF;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.textarea-bg {
+    position: relative;
+    height: min-content;
+    width: min-content;
+    background-color: blanchedalmond;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+textarea {
+    padding: 7px;
+    border: 1px solid #D8DDE6;
+    border-radius: 8px;
+    font-family: SFS, Arial, sans-serif;
+    font-size: .9125rem;
+}
+
+textarea:focus {
+    border: 1px solid #1589ee;
+    outline: 0;
+    box-shadow: 0 0 3px #0070D2;
+}
+
+#textarea-output {
+    word-break: break-all;
+}
+
+.copy-button {
+    position: absolute;
+    padding: 5px;
+    margin: 0;
+    bottom: 10px;
+    left: 10px;
+}

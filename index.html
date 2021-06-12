@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL encoder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="contariner">
+        <div id="heared">
+            <header id="heared">URI encoder / decoder</header>
+        </div>
+
+        <div class="textarea-bg">
+            <textarea name="input" oninput="_uriEncode()" id="textarea-input" cols="60" rows="15"></textarea>
+            <div class="copy-button" onclick="copy('textarea-input')">
+                <svg height="20" width="17">
+                    <path clip-rule="evenodd"
+                        d="M16.4998 14.1666V2.49992C16.4998 1.58325 15.7498 0.833252 14.8332 0.833252H5.6665C4.74984 0.833252 3.99984 1.58325 3.99984 2.49992V14.1666C3.99984 15.0833 4.74984 15.8333 5.6665 15.8333H14.8332C15.7498 15.8333 16.4998 15.0833 16.4998 14.1666ZM13.9998 17.4999H2.33317V5.83325H0.666504V17.4999C0.666504 18.4166 1.4165 19.1666 2.33317 19.1666H13.9998V17.4999ZM5.6665 14.1666H14.8332V2.49992H5.6665V14.1666Z"
+                        fill-rule="evenodd">
+                    </path>
+                </svg>
+            </div>
+        </div>
+        <br>
+        <div class="textarea-bg">
+            <textarea name="input" oninput="_uriDecode()" id="textarea-output" cols="60" rows="15"></textarea>
+            <div class="copy-button" onclick="copy('textarea-output')">
+                <svg height="20" width="17">
+                    <path clip-rule="evenodd"
+                        d="M16.4998 14.1666V2.49992C16.4998 1.58325 15.7498 0.833252 14.8332 0.833252H5.6665C4.74984 0.833252 3.99984 1.58325 3.99984 2.49992V14.1666C3.99984 15.0833 4.74984 15.8333 5.6665 15.8333H14.8332C15.7498 15.8333 16.4998 15.0833 16.4998 14.1666ZM13.9998 17.4999H2.33317V5.83325H0.666504V17.4999C0.666504 18.4166 1.4165 19.1666 2.33317 19.1666H13.9998V17.4999ZM5.6665 14.1666H14.8332V2.49992H5.6665V14.1666Z"
+                        fill-rule="evenodd">
+                    </path>
+                </svg>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
