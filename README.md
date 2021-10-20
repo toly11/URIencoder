@@ -1,3 +1,3 @@
 # URIencoder
 
-https://uri-encoder-m27xp.ondigitalocean.app/
+https://toly11.github.io/URIencoder/
